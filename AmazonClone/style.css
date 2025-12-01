@@ -1,0 +1,20 @@
+*{
+    margin:0;
+    font-family: Arial;
+    border:border-box; /*border should be counted in height and width(content) */
+}
+.navbar{
+    height:60px;
+    background-color: #0f1111;
+    color: white;
+}
+.nav-logo{
+    height:50px;
+    width:100px;
+}
+.logo{
+    background-size: cover;
+    background-image: url(amazon_logo.png);
+    height:50px;
+    width:100%;
+}
