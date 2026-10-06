@@ -1,0 +1,63 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+#main{
+    height:100%;
+    width:100%;
+    background-color: rgb(165, 185, 205);
+    display:flex;/*vertical box horizontal me aa jayenge*/
+    align-items: center;
+    justify-content: center;
+    font-family:'Gill Sans';
+
+}
+
+
+.shape{
+    margin-top:px;
+    margin-left:10px;/*margin collab to get 10px only between the boxes*/
+   
+    height:200px;
+    width:200px;
+    /* background-color: rgb(160, 142, 176); */
+    border: 1px solid rgb(57, 46, 46);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#Square:hover{
+    background-color: rgb(86, 8, 8);
+}
+#Diamond:hover{
+    background-color: rgb(83, 21, 36);
+}
+#Circle:hover{
+    background-color: rgb(64, 68, 24);
+}
+    
+
+#Circle{
+    /* background-color: rgb(36, 20, 20); */
+    border-radius:50%; 
+}
+#Diamond{
+    rotate: 45deg;
+    margin-top:40px;
+    height: 141px;
+    width:  141px;
+    translate: 30px;
+
+    
+
+}
+#Diamond h1{
+    rotate:-45deg;
+}
+h1{
+     font-weight:normal;
+}
